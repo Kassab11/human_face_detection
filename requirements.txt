@@ -1,0 +1,6 @@
+opencv-python-headless==4.0.1.24
+facenet-pytorch==2.5.3
+mmcv==2.0.0
+torch==2.0.1
+torchvision==0.15.2
+Pillow==10.0.0
