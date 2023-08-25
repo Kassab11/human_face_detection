@@ -16,4 +16,4 @@ https://drive.google.com/file/d/1OeOiGsOrXTL_5NJ6GZYiD35_c8Zcy2NN/view?usp=shari
 python face_detection.py --video_path /path/to/video.mp4 --output_path /path/to/save/output.avi --log_file /path/to/save/log.txt --detection_model 'haarcascade', 'mtcnn' --mtcnn_weight /path/to/trained_weights.pth (optional)
 
 **For fine-tuning running tune_MTCNN.py**:
-python tune_MTCNN.py --data_dir /path/to/directory/with/two/classes --output_weights_path /path/to/save/output/weight.pth --epochs *number of epochs* --batch_size *batch size*  --lr *learning rate*
+python tune_MTCNN.py --data_dir /path/to/directory/with/two/classes --output_weights_path /path/to/save/output/weight.pth --epochs * number of epochs * --batch_size * batch size *  --lr * learning rate *
